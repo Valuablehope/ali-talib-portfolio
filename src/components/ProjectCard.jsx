@@ -14,7 +14,7 @@ const ProjectCard = ({ project, index, onClick }) => {
       <div className="project-card-inner">
         <div className="project-image">
           <img 
-            src={project.image || '/api/placeholder/400/250'} 
+            src={project.thumbnail || project.images?.[0] || project.image || '/api/placeholder/400/250'} 
             alt={project.title}
             loading="lazy"
           />

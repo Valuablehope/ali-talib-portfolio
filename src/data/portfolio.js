@@ -41,8 +41,9 @@ export const portfolioData = {
       description: "National Health Information System designed in collaboration with Ministry of Public Health. Comprehensive health data management platform serving multiple PHCCs across Lebanon.",
       tech: ["System Analysis", "Database Design", "Health Informatics", "SQL Server"],
       features: ["Real-time data collection", "Multi-facility support", "Automated reporting", "Data validation"],
-      image: "/projects/phenics.jpg",
-      color: "#3B82F6"
+      images: ["/projects/phenics-1.jpg", "/projects/phenics-2.jpg", "/projects/phenics-3.jpg"],
+      thumbnail: "/projects/phenics-thumb.jpg",
+      color: "#FF6B6B"
     },
     {
       id: 2,
@@ -51,8 +52,9 @@ export const portfolioData = {
       description: "Mobile Emergency Response Application developed with MoPH for rapid health emergency reporting and coordination.",
       tech: ["Flutter", "Firebase", "Google Maps API", "Push Notifications"],
       features: ["Emergency reporting", "GPS tracking", "Real-time alerts", "Offline capability"],
-      image: "/projects/mera.jpg",
-      color: "#10B981"
+      images: ["/projects/mera-1.jpg", "/projects/mera-2.jpg", "/projects/mera-3.jpg"],
+      thumbnail: "/projects/mera-thumb.jpg",
+      color: "#4ECDC4"
     },
     {
       id: 3,
@@ -61,8 +63,9 @@ export const portfolioData = {
       description: "Community health application providing health services access and medical information to Lebanese citizens.",
       tech: ["Flutter", "Node.js", "MongoDB", "REST API"],
       features: ["Service locator", "Health tips", "Appointment booking", "Multi-language"],
-      image: "/projects/sohatna.jpg",
-      color: "#8B5CF6"
+      images: ["/projects/sohatna-1.jpg", "/projects/sohatna-2.jpg", "/projects/sohatna-3.jpg"],
+      thumbnail: "/projects/sohatna-thumb.jpg",
+      color: "#FFE66D"
     },
     {
       id: 4,
@@ -71,8 +74,9 @@ export const portfolioData = {
       description: "Full-featured Point of Sale system for bookstores with inventory management and sales analytics.",
       tech: ["Electron", "Node.js", "SQLite", "React"],
       features: ["Inventory tracking", "Sales reports", "Customer management", "Offline mode"],
-      image: "/projects/chapter-one.jpg",
-      color: "#F59E0B"
+      images: ["/src/assets/projects/chapterone_1.png", "/src/assets/projects/chapterone_2.png", "/src/assets/projects/chapterone_4.png"],
+      thumbnail: "/src/assets/projects/chapterone_1.png",
+      color: "#FF8E53"
     },
     {
       id: 5,
@@ -81,8 +85,9 @@ export const portfolioData = {
       description: "Comprehensive inventory management system with real-time tracking and automated reordering.",
       tech: ["Angular", ".NET Core", "SQL Server", "SignalR"],
       features: ["Real-time updates", "Barcode scanning", "Automated ordering", "Multi-warehouse"],
-      image: "/projects/logix.jpg",
-      color: "#EF4444"
+      images: ["/src/assets/projects/Logix_1.png", "/src/assets/projects/Logix_2.png", "/src/assets/projects/Logix_3.png"],
+      thumbnail: "/src/assets/projects/Logix_1.png",
+      color: "#45B7D1"
     },
     {
       id: 6,
@@ -91,8 +96,9 @@ export const portfolioData = {
       description: "Data collection application for community health workers with offline capability and automatic sync.",
       tech: ["Flutter", "Google Scripts", "Google Sheets API", "SQLite"],
       features: ["Offline data entry", "Auto-sync", "Form validation", "GPS tagging"],
-      image: "/projects/data-collection.jpg",
-      color: "#06B6D4"
+      images: ["/src/assets/projects/community_1.jpg", "/src/assets/projects/community_3.jpg", "/src/assets/projects/community_5.jpg"],
+      thumbnail: "/src/assets/projects/community_1.jpg",
+      color: "#95E1D3"
     },
     {
       id: 7,
@@ -101,8 +107,9 @@ export const portfolioData = {
       description: "Modern ticketing system for IT support with automated routing and SLA management.",
       tech: ["React", "Vite", "Supabase", "GitHub Pages"],
       features: ["Auto-assignment", "SLA tracking", "Knowledge base", "Email integration"],
-      image: "/projects/ticket-hub.jpg",
-      color: "#EC4899"
+      images: ["/src/assets/projects/tickethub_1.png", "/src/assets/projects/tickethub_2.png", "/src/assets/projects/tickethub_3.png"],
+      thumbnail: "/src/assets/projects/tickethub_1.png",
+      color: "#FD79A8"
     },
     {
       id: 8,
@@ -111,8 +118,9 @@ export const portfolioData = {
       description: "Organization social intranet platform with AI-powered features for enhanced collaboration.",
       tech: ["React", "Supabase", "AI Integration", "Axios"],
       features: ["Social feeds", "AI chatbot", "Document sharing", "Team collaboration"],
-      image: "/projects/vibein.jpg",
-      color: "#14B8A6"
+      images: ["/src/assets/projects/vibe_1.png", "/src/assets/projects/vibe_2.png", "/src/assets/projects/vibe_3.png"],
+      thumbnail: "/src/assets/projects/vibe_1.png",
+      color: "#A29BFE"
     }
   ],
   

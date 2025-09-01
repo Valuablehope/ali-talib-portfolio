@@ -1,6 +1,7 @@
 // src/components/Navbar.jsx
 import { useState } from 'react';
 import { FaBars, FaTimes, FaDownload } from 'react-icons/fa';
+import profileImage from '../assets/profile.jpg';
 
 const Navbar = ({ activeSection, scrolled, personalData }) => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -35,7 +36,18 @@ const Navbar = ({ activeSection, scrolled, personalData }) => {
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <div className="nav-logo" onClick={() => scrollToSection('home')}>
-          <span className="logo-text">AT</span>
+          <div className="logo-image-container">
+            <img 
+              src={profileImage} 
+              alt="Ali Talib" 
+              className="logo-image"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+            <div className="logo-fallback" style={{ display: 'none' }}>AT</div>
+          </div>
           <span className="logo-name">{personalData.name}</span>
         </div>
         
